@@ -42,5 +42,8 @@ Over all the experiments conducted we have tried our best to preverse the output
     * ```Best-Checkpoint```: [./weights/point_files/combined/my_checkpoint_epoch_4_.pth.tar](https://drive.google.com/file/d/1Zljv9E6URpokdKQ5yZs5IDDmWPsIArSF/view?usp=share_link)
     * Output (expected) and shown in the .ipynb Notebook(Inference cell output).  
         ![image](https://user-images.githubusercontent.com/47940851/236508599-54e20d32-aa57-40ae-b07a-2e5097a55845.png)
+* The **training_stats folder** contains all the numpy files with the loss values recorded for each iteration for each model tested. 
+* The **backup.txt** files contains the cell output of the recorded training statss of the Model trained with Undisturbed Speech Sequence, because the correspnding cell from the notebook got deleted. 
 
-
+Thank you! 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
