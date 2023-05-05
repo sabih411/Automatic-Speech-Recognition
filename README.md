@@ -17,7 +17,8 @@ Over all the experiments conducted we have tried our best to preverse the output
       data_processing_probabilistic25 ( to handle probabilistic-25 Reverse set)
       data_processing_50p (to handle Reverse set-50%)
   ```
-* During Inference consider commenting out the Train function under epochs loop. Also to view the results specified, you have to load the best-checkpoints for each model. 
+* During Inference consider commenting out the Train function under epochs loop. Also to view the results specified, you have to load the best-checkpoints for each model.
+  * The model weights can be found on the [link](www.google.com)
   * For infering the Model trained with Undisturbed Audio sequence.
   
     ```Best-Checkpoint```: ./weights/point_files/check_point_files/my_checkpoint_epoch_10_.pth.tar
