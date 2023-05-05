@@ -22,7 +22,7 @@ Over all the experiments conducted we have tried our best to preverse the output
   * The model checkpoint files can be found in the [weights folder](https://drive.google.com/drive/folders/10rjqI-G1iAzkn13xCWFoqsMeHtRLcJSG?usp=sharing). The organization of the weights follder is shown below. 
   ```
     |weights
-      |->pont_files
+      |->point_files
          |->check_point_files
            |...ckpt files
          |->reverse20
