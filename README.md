@@ -9,17 +9,35 @@ Consider opening the .ipynb notebook on Goole Colab https://colab.research.googl
 Over all the experiments conducted we have tried our best to preverse the outputs of almost all cells that we could!!! 
 
 **Important Notes:** 
-* During Training or Inference of different models, care must be take while specifying the name(**x**)  of the [*data_processing_**x***] functions when loading the Train and Test loaders (under the Section Train-Test Functions). 
-  * Differet [*data_processing_**x***] functions and their functionality is listed below: 
-    * data_processing_normal (to handle undististurbed audio)
-    * data_processing_LTR (to handle locally-time reversed audio)
-    * data_processing_probabilistic25 ( to handle probabilistic-25 Reverse set)
-    * data_processing_50p (to handle Reverse set-50%)
+* During Training or Inference of different models, care must be take while specifying the name(**x**)  of the ```data_processing_x``` functions when loading the Train and Test loaders (under the Section Train-Test Functions). 
+  * Differet ```data_processing_x``` functions and their functionality is listed below: 
+  ```
+      data_processing_normal (to handle undististurbed audio)
+      data_processing_LTR (to handle locally-time reversed audio)
+      data_processing_probabilistic25 ( to handle probabilistic-25 Reverse set)
+      data_processing_50p (to handle Reverse set-50%)
+  ```
 * During Inference consider commenting out the Train function under epochs loop. Also to view the results specified, you have to load the best-checkpoints for each model. 
   * For infering the Model trained with Undisturbed Audio sequence.
-    Best-Checkpoint: ./weights/point_files/check_point_files/my_checkpoint_epoch_10_.pth.tar
-  * For infering the Model trained with Locally Time Reversed Audio sequence.
-    Best-Checkpoint: ./weights/point_files/check_point_files/my_checkpoint_epoch_10_.pth.tar
-  * For infering the Ensemble Model trained with combination of Undisturbed and Locally Time Reversed Audio Sequence.
-    Best-Checkpoint: ./weights/point_files/check_point_files/my_checkpoint_epoch_10_.pth.tar
   
+    ```Best-Checkpoint```: ./weights/point_files/check_point_files/my_checkpoint_epoch_10_.pth.tar
+    Output (expected) and shown in the .ipynb Notebook (Inference cell output).
+    
+    ![image](https://user-images.githubusercontent.com/47940851/236508244-dd4eb13c-d9ff-4ff8-a007-04a179cc58d8.png)
+
+  * For infering the Model trained with Locally Time Reversed Audio sequence.
+  
+    ```Best-Checkpoint```: ./weights/point_files/check_point_files/my_checkpoint_epoch_10_.pth.tar
+    Output (expected) and shown in the .ipynb Notebook(Inference cell output).
+    
+    ![image](https://user-images.githubusercontent.com/47940851/236508445-8e762186-3bae-40e7-ad68-a2b98c337e71.png)
+
+    
+  * For infering the Ensemble Model trained with combination of Undisturbed and Locally Time Reversed Audio Sequence.
+  
+    ```Best-Checkpoint```: ./weights/point_files/check_point_files/my_checkpoint_epoch_10_.pth.tar
+    Output (expected) and shown in the .ipynb Notebook(Inference cell output).
+    
+    ![image](https://user-images.githubusercontent.com/47940851/236508599-54e20d32-aa57-40ae-b07a-2e5097a55845.png)
+
+
