@@ -39,7 +39,7 @@ Over all the experiments conducted we have tried our best to preverse the output
     * Output (expected) and shown in the .ipynb Notebook(Inference cell output).
        ![image](https://user-images.githubusercontent.com/47940851/236508445-8e762186-3bae-40e7-ad68-a2b98c337e71.png)
   * For infering the Ensemble Model trained with combination of Undisturbed and Locally Time Reversed Audio Sequence use the checkpoints under **combined**
-    * ```Best-Checkpoint```: [./weights/point_files/combined/my_checkpoint_epoch_1_.pth.tar](https://drive.google.com/file/d/1Zljv9E6URpokdKQ5yZs5IDDmWPsIArSF/view?usp=share_link)
+    * ```Best-Checkpoint```: [./weights/point_files/combined/my_checkpoint_epoch_4_.pth.tar](https://drive.google.com/file/d/1Zljv9E6URpokdKQ5yZs5IDDmWPsIArSF/view?usp=share_link)
     * Output (expected) and shown in the .ipynb Notebook(Inference cell output).  
         ![image](https://user-images.githubusercontent.com/47940851/236508599-54e20d32-aa57-40ae-b07a-2e5097a55845.png)
 
