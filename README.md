@@ -45,5 +45,6 @@ Over all the experiments conducted we have tried our best to preverse the output
 * The **training_stats folder** contains all the numpy files with the loss values recorded for each iteration for each model tested. 
 * The **backup.txt** files contains the cell output of the recorded training statss of the Model trained with Undisturbed Speech Sequence, because the correspnding cell from the notebook got deleted. 
 
-Thank you! 
+**THANK YOU! **
+
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
