@@ -1,4 +1,4 @@
-# CSE587-Project
+#Novel Automatic Speech Recognition System
 
 The proposed work presents a Novel Framework for Automatic Speech Recognition (ASR), using the normal and the locally-time reversed audio sequence as two of its efficient cues. The cues are first well trained on a baseline model and then combined with effective fine-tuning. Furthermore, with the cohort of experiments conducted, the work also describes a variety of reverse sequences which are not fit for ASR systems. The presented architecture has achieved a remarkable metric score outperforming other methods and has therefore provided a path to the researchers to further explore the idea of employing the locally-time reversed sequences in a more sophisticated manner.
 ![image](https://user-images.githubusercontent.com/47940851/236496758-a5c38ba2-de56-4489-9898-56e0db977d15.png)
